@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Envíos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📦 Gestión de Envíos</h1>
+
+  <form id="formEnvio">
+    <input type="hidden" id="id">
+    <input type="text" id="destinatario" placeholder="Destinatario" required>
+    <input type="text" id="direccion" placeholder="Dirección" required>
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <button type="submit">Guardar</button>
+  </form>
+
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>ID</th><th>Destinatario</th><th>Dirección</th><th>Descripción</th><th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
